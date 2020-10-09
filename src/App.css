@@ -1,0 +1,73 @@
+html, body{
+  height: 100%;
+}
+section#main{
+  margin: 0px;
+  padding: 0px;
+  background-color: #6089BF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-main{
+  width: auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2220px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.header h2{
+  font-size: xx-large;
+  color: #2B4C8C;
+  font-weight: bold;
+}
+
+.header h4{
+  font-size: larger;
+  color: #4375D9;
+}
+
+.formInputs label{
+  color: #4375D9;
+  font-weight: bold;
+}
+
+.header img{
+  width: 80px;
+}
+
+.resultado{
+  color: #fff;
+  background-color: #61769F;
+  border-radius: 200px;
+}
+
+.card-main button{
+  background-color: #2d65d4;
+  color: #fff;
+}
+
+.card-main button:hover{
+  background-color: #5983d8;
+  color: #fff;
+}
+
+.footer{
+  width: 100%;
+  background-color: #1C3059;
+  color: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
