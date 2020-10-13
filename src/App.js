@@ -19,7 +19,7 @@ function App() {
         </div>  
         <footer className="footer">
           <div className="pt-2">
-            <h6 className="text-center"> &copy; Mateus Sousa - 2020</h6>
+            <h6 className="text-center"> &copy; Mateus Sousa, Danrley Silva, Iago Lima - 2020</h6>
           </div>
         </footer>      
       </section>
