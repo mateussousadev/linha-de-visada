@@ -34,10 +34,10 @@ export default class FormCalc extends React.Component {
                 <div className="formInputs">
                     <Form.Group controlId="antena01">
                         <Form.Label>Antena 01</Form.Label>
-                        <Form.Control name="antena01" type="number"  value={this.state.antena01}  placeholder="m" onChange={this.handleChange}/>
+                        <Form.Control name="antena01" type="number"  value={this.state.antena01} placeholder="altura em metros" onChange={this.handleChange}/>
                     </Form.Group>
                     <Form.Group controlId="antena02">
-                        <Form.Label>Antena 02</Form.Label>
+                        <Form.Label>Antena 002</Form.Label>
                         <Form.Control name="antena02" type="number" value={this.state.antena02}  placeholder="altura em metros" onChange={this.handleChange}/>
                     </Form.Group>
                     <Button className="btn w-100 mb-2"  variant="primary"  type="submit" onClick={this.calc}>Calcular</Button>
